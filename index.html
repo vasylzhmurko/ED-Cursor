@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Cursor-HW#3-Html</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<div class="main-container">
+
+		<header>
+			<h1>Lesson №3 / HTML</h1>
+			<h2>Home Work</h2>
+			<p>by Ihor Abakumov</p>
+			<img src="img/flash_cute.jpg" alt="flash_cute.img" />
+		</header>
+
+
+		<table>
+			<thead>
+				<th>Name</th>
+				<th>Family</th>
+				<th>Phone</th>
+				<th>Email</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Vladimir</td>
+					<td>Zelensky</td>
+					<td>(097)777-77-77</td>
+					<td>zelensky@com.ua</td>
+				</tr>
+				<tr>
+					<td>Vladimir</td>
+					<td>Putin</td>
+					<td>(967)666-66-66</td>
+					<td>satana13@mail.com</td>
+				</tr>
+				<tr>
+					<td>Donald</td>
+					<td>Trump</td>
+					<td>(212) 111-2626</td>
+					<td>trump@gmail.com</td>
+				</tr>
+				<tr>
+					<td>Petro</td>
+					<td>Roshen</td>
+					<td>(099)090-22-22</td>
+					<td>poroshenko@net.com</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+		<form action="/" method="/">
+			<label for="fname">First name:</label>
+			<input type="text" name="first-name" maxlength="12" placeholder="enter your first name" />
+			<label for="lname">Last name:</label>
+			<input type="text" name="last-name" maxlength="16" placeholder="enter your last name" />
+
+
+			<h3>What is your gender</h3>
+
+
+			<input type="radio" name="gender" value="male" />
+			<label for="male">Male</label>
+
+			<input type="radio" name="gender" value="female" />
+			<label for="female">Female</label>
+
+			<input type="radio" checked name="gender" value="other" />
+			<label for="other">Other</label>
+
+
+			<textarea name="sometext" cols="30" rows="8" placeholder="Please, write your question here.">
+					What?				
+			</textarea>
+
+
+			<select name="city">
+				<option disabled selected>choose your city</option>
+				<option value="Khmelnytskiy">Khmelnytskiy</option>
+				<option value="Tenopil">Ternopil</option>
+				<option value="Odessa">Odessa</option>
+				<option value="Lviv">Lviv</option>
+				<option value="Seoul">Seoul</option>
+			</select>
+
+
+			<h3>Language selection:</h3>
+
+
+			<input type="checkbox" id="ukr" name="lang" value="ukr" />
+			<label for="ukr">Ukrainian</label>
+			<input type="checkbox" id="eng" name="lang" value="eng" />
+			<label for="eng">English</label>
+			<input type="checkbox" id="ru" name="lang" value="ru" />
+			<label for="ru">Russian</label>
+			<input type="checkbox" id="ko" name="lang" value="ko" />
+			<label for="ko">Korean</label>
+			<button type="submit" name="submit">Send</button>
+			
+		</form>
+
+
+		<footer>
+			<p>The code was written by Igor Abakumov 09/2020</p>
+		</footer>
+	</div>
+</body>
+
+</html>

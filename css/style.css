@@ -1,0 +1,147 @@
+* {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin: 0;
+	padding: 0;
+}
+/*
+.main-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	min-width: 50%;
+	min-height: 50%;
+	background-color: #fff8d1;
+}
+
+*/
+
+.main-container {
+	display: ;
+	width: 60%;
+	margin: 0 auto;
+	padding: 0 20%;
+	background-color: #fff8d1;
+}
+
+
+
+header {
+	background: #fff;
+	text-align: center;
+	width: 100%;
+	padding: 5% 0;
+	color: #777;
+
+}
+
+
+
+p {
+	font-style: italic;
+	font-size: .750rem;
+	font-weight: bold;
+	padding: 5%;
+}
+
+img {
+	width: 100%;
+	margin-top: 20px;
+}
+
+h3 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+table,
+th,
+tr,
+td {
+	color: #444;
+	width: 100%;
+	border: 1px solid #777;
+	text-align: center;
+	padding: 10px;
+	border-spacing: 5px;
+	border-collapse: collapse;
+	margin-top: 5%;
+}
+
+tr:nth-child(2n+2) {
+	background-color: #f2f2f2;
+}
+
+th {
+	background-color: #333;
+	color: #eee;
+	padding: 15px;
+}
+
+
+form {
+	color: #555;
+	width: 80%;
+	margin-top: 20px;
+	border-radius: 5px;
+	background-color: #fe9;
+	padding: 10%;
+}
+
+textarea {
+	width: 100%;
+	height: 150px;
+	padding: 12px 20px;
+	margin: 20px 0 20px 0;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 2px solid #ddd;
+	background-color: #f8f8f8;
+	font-size: .870rem;
+	resize: none;
+}
+
+label {
+	display: inline-block;
+	padding: 8px 8px 8px 0;
+	margin: 2% 0 0;
+}
+
+input[type=text],
+select {
+	display: inline-block;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border-radius: 5px;
+	border: 2px solid #ccc;
+	box-sizing: border-box;
+}
+
+button {
+	display: block;
+	text-align: center;
+	width: 30%;
+	margin: 5% auto;
+	background-image: linear-gradient(#ff4000, #ffff00);
+	color: #eee;
+	padding: 12px 20px;
+	
+	border: none;
+	font-weight: 600;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-image: linear-gradient(#ffff00, #ff8000);
+}
+
+footer p {
+	margin: 20px 0 20px 0;
+	text-align: center;
+	color: #555;
+	font-style: italic;
+	font-size: .750rem;
+	letter-spacing: 2px;
+}

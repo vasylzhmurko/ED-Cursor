@@ -21,7 +21,7 @@
 	width: 60%;
 	margin: 0 auto;
 	padding: 0 20%;
-	background-color: #fff8d1;
+	background-color: #faffef;
 }
 
 
@@ -51,16 +51,16 @@ img {
 
 h3 {
 	text-align: center;
-	margin-top: 20px;
+	margin: 2%;
 }
 
 table,
 th,
 tr,
 td {
-	color: #444;
+	color: #999;
 	width: 100%;
-	border: 1px solid #777;
+	border: 1px solid #faf0f9;
 	text-align: center;
 	padding: 10px;
 	border-spacing: 5px;
@@ -73,68 +73,83 @@ tr:nth-child(2n+2) {
 }
 
 th {
-	background-color: #333;
-	color: #eee;
+	background-color: #dddddd;
+	color: #fff;
 	padding: 15px;
 }
 
 
+.radiobuttons {
+	text-align: center;
+	width: 100%;
+	
+}
+
+
 form {
+	border: 0px solid red;
 	color: #555;
 	width: 80%;
 	margin-top: 20px;
 	border-radius: 5px;
-	background-color: #fe9;
+	background-color: #fffef3;
 	padding: 10%;
 }
 
 textarea {
-	width: 100%;
+	width: 90%;
 	height: 150px;
-	padding: 12px 20px;
-	margin: 20px 0 20px 0;
-	box-sizing: border-box;
-	border-radius: 5px;
-	border: 2px solid #ddd;
-	background-color: #f8f8f8;
+	padding: 5%;
+	margin: 5% auto;
+	border: 0px;
+	background-color: #f2f2f2;
 	font-size: .870rem;
 	resize: none;
 }
 
 label {
-	display: inline-block;
-	padding: 8px 8px 8px 0;
+	display:  inline-block;
+	padding: 3%;
 	margin: 2% 0 0;
 }
 
 input[type=text],
 select {
-	display: inline-block;
-	width: 100%;
+	display: block;
+	
+	width: 50%;
 	padding: 12px 20px;
-	margin: 8px 0;
+	margin: 5% auto ;
 	border-radius: 5px;
 	border: 2px solid #ccc;
 	box-sizing: border-box;
 }
+
+.checkboxes {
+	width: 100%;
+	text-align: center;
+}
+
 
 button {
 	display: block;
 	text-align: center;
 	width: 30%;
 	margin: 5% auto;
-	background-image: linear-gradient(#ff4000, #ffff00);
-	color: #eee;
+	/*background-image: linear-gradient(#aef0b0, #84ee51);*/
+	color: #fff;
 	padding: 12px 20px;
-	
 	border: none;
 	font-weight: 600;
 	border-radius: 2px;
 	cursor: pointer;
+	transition: all .4s ease ;
+	background: #fe6060;
 }
 
 button:hover {
-	background-image: linear-gradient(#ffff00, #ff8000);
+	background: #ff3080;
+ 	/*	background-image: linear-gradient(#bef0a0, #a4ee51); */
 }
 
 footer p {
@@ -144,4 +159,12 @@ footer p {
 	font-style: italic;
 	font-size: .750rem;
 	letter-spacing: 2px;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.main-container {
+		width: 100%;
+		padding: 0;		
+	}
 }

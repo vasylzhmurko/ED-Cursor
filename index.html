@@ -23,87 +23,97 @@
 		<table>
 			<thead>
 				<th>Name</th>
-				<th>Family</th>
+				<th>Developer in</th>
 				<th>Phone</th>
 				<th>Email</th>
 			</thead>
 			<tbody>
 				<tr>
-					<td>Vladimir</td>
-					<td>Zelensky</td>
-					<td>(097)777-77-77</td>
-					<td>zelensky@com.ua</td>
+					<td>Bill</td>
+					<td>C</td>
+					<td>(097) 777-77-77</td>
+					<td>Billmillpill@com.ua</td>
 				</tr>
 				<tr>
-					<td>Vladimir</td>
-					<td>Putin</td>
-					<td>(967)666-66-66</td>
-					<td>satana13@mail.com</td>
+					<td>Teresa</td>
+					<td>PHP</td>
+					<td>(967) 666-66-66</td>
+					<td>klevona@mail.ru</td>
 				</tr>
 				<tr>
-					<td>Donald</td>
-					<td>Trump</td>
+					<td>Bob</td>
+					<td>Java</td>
 					<td>(212) 111-2626</td>
-					<td>trump@gmail.com</td>
+					<td>linuxforveryeah@gmail.com</td>
 				</tr>
 				<tr>
-					<td>Petro</td>
-					<td>Roshen</td>
-					<td>(099)090-22-22</td>
-					<td>poroshenko@net.com</td>
+					<td>Thomas</td>
+					<td>Haskell</td>
+					<td>(099) 090-22-22</td>
+					<td>typeerrors@net.com</td>
 				</tr>
 			</tbody>
 		</table>
 
 
 		<form action="/" method="/">
-			<label for="fname">First name:</label>
-			<input type="text" name="first-name" maxlength="12" placeholder="enter your first name" />
-			<label for="lname">Last name:</label>
-			<input type="text" name="last-name" maxlength="16" placeholder="enter your last name" />
+			<h3>What is your name?</h3>
+			<input type="text" name="first-name" maxlength="12" placeholder="Name" />
+			<h3> What language do you use?</h3>
+			<input type="text" name="last-name" maxlength="16" placeholder="Language" />
 
 
 			<h3>What is your gender</h3>
 
+			<div class="radiobuttons">
+				<input type="radio" name="gender" value="male" />
+				<label for="male">Male</label>
 
-			<input type="radio" name="gender" value="male" />
-			<label for="male">Male</label>
+				<input type="radio" name="gender" value="female" />
+				<label for="female">Female</label>
 
-			<input type="radio" name="gender" value="female" />
-			<label for="female">Female</label>
+				<input type="radio" checked name="gender" value="other" />
+				<label for="other">Other</label>
+			</div>
 
-			<input type="radio" checked name="gender" value="other" />
-			<label for="other">Other</label>
-
-
-			<textarea name="sometext" cols="30" rows="8" placeholder="Please, write your question here.">
+			<textarea name="sometext" cols="30" rows="8" placeholder="Sometimes people want to leave their questions here.">
 					What?				
 			</textarea>
 
 
 			<select name="city">
-				<option disabled selected>choose your city</option>
+				<option disabled selected>Choose your hometown</option>
 				<option value="Khmelnytskiy">Khmelnytskiy</option>
 				<option value="Tenopil">Ternopil</option>
 				<option value="Odessa">Odessa</option>
 				<option value="Lviv">Lviv</option>
+				<option value="Kyiv">Kyiv</option>
+				<option value="Sao Paulo">Sao Paulo</option>
+				<option value="Barcelona">Barcelona</option>
+				<option value="St. Petersburg">St. Petersburg</option>				
 				<option value="Seoul">Seoul</option>
 			</select>
 
 
 			<h3>Language selection:</h3>
 
-
-			<input type="checkbox" id="ukr" name="lang" value="ukr" />
-			<label for="ukr">Ukrainian</label>
-			<input type="checkbox" id="eng" name="lang" value="eng" />
-			<label for="eng">English</label>
-			<input type="checkbox" id="ru" name="lang" value="ru" />
-			<label for="ru">Russian</label>
-			<input type="checkbox" id="ko" name="lang" value="ko" />
-			<label for="ko">Korean</label>
-			<button type="submit" name="submit">Send</button>
-			
+			<div class="checkboxes">
+				<input type="checkbox" id="ukr" name="lang" value="ukr" />
+				<label for="ukr">Ukrainian</label>
+				<input type="checkbox" id="eng" name="lang" value="eng" />
+				<label for="eng">English</label>
+				<input type="checkbox" id="ru" name="lang" value="ru" />
+				<label for="ru">Russian</label>
+				<input type="checkbox" id="ko" name="lang" value="ko" />
+				<label for="ko">Korean</label>
+				<input type="checkbox" id="eo" name="lang" value="eo" />
+				<label for="ko">Esperanto</label>
+				<input type="checkbox" id="pt" name="lang" value="pt" />
+				<label for="pt">Portuguese</label>
+				<input type="checkbox" id="es" name="lang" value="es" />
+				<label for="ko">Spanish</label>
+				<button type="submit" name="submit">Send</button>
+			</div>
 		</form>
 
 
